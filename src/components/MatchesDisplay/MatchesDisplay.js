@@ -9,7 +9,7 @@ const MatchesDisplay = () => {
 
 	return (
 		<div className="matches-section">
-			<Typography variant="h5" color="primary" className="match-header">
+			<Typography variant="h5" color="primary" className="section-header">
 				Your matches
 			</Typography>
 			<div className="matches-list">

@@ -1,10 +1,14 @@
+.matches-section {
+	margin-bottom: 10%;
+}
+
 .matches-list {
 	display: flex;
 	align-items: center;
 	width: 100%;
 }
 
-.match-header {
+.section-header {
 	font-weight: bold !important;
 	margin-bottom: 10px !important;
 }
