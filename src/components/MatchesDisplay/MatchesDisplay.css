@@ -1,0 +1,26 @@
+.matches-list {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.match-header {
+	font-weight: bold !important;
+	margin-bottom: 10px !important;
+}
+
+.match-avatar {
+	margin: 0 2%;
+	transition: all 0.15s ease-in-out;
+}
+
+.match-avatar:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.avatar-icon {
+	width: 60px !important;
+	height: 60px !important;
+	border: 3px solid red;
+}

@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import LoginPage from "./pages/LoginPage/LoginPage.js";
 import { AnimatePresence } from "framer-motion";
 import Signup from "./pages/Signup/Signup";
+import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
 	const location = useLocation();
@@ -18,6 +19,7 @@ function App() {
 					<Route exact path="/" component={MainPage} />
 					<Route exact path="/login" component={LoginPage} />
 					<Route exact path="/signup" component={Signup} />
+					<Route exact path="/dashboard" component={Dashboard} />
 				</Switch>
 			</AnimatePresence>
 		</div>
